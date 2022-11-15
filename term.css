@@ -1,6 +1,6 @@
 body {
     background-color:dodgerblue; /* make background color of entire page blue. */
-    margin: 0; /* zero out all margins and padding to eliminate white spacing around boxes. */
+    margin: 2; /* zero out all margins and padding to eliminate white spacing around boxes. */
     padding: 2rem;
     /* best practice to set base font family for document */
     font-family: Arial, Helvetica, sans-serif;
@@ -13,15 +13,18 @@ p { /* add margins around all paragraphs */
     margin: 2rem;
 }
 #top {
-    background-color: aliceblue; /* overrides body bacground color */
-    padding-top: 15rem; /* adds spacing above and below content */
-    padding-bottom: 5rem;
+    background-color: rgb(87, 170, 243); /* overrides body bacground color */
+    padding-top: 0rem; /* adds spacing above and below content */
+    padding-bottom: 0rem;
 }
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4.4rem;
     text-align: center; /* do not use center tag in html */
     color: black;
+}
+#middle {
+    background-color: aliceblue; /* overrides body background color */
 }
 a {
     color: deepskyblue;
@@ -32,7 +35,8 @@ a:hover {
 }
 blockquote {
     margin-left: 5rem;
-    border-left: 1 rem solid #00A896;
+    border-left: 1 rem solid #ffffff;
+    text-align: center;
 }
 blockquote p {
     margin-left: 1rem;
